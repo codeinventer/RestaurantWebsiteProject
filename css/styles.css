@@ -77,6 +77,6 @@ body {
   border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+  clear: left;
+
 }
