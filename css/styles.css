@@ -171,6 +171,14 @@ body {
     width: 360px;
     margin: 0 auto 15px;
   }}
+#menu-tile,#special-tile,#map-tile{
+  margin-bottom: 15px;
+  height: 250px;
+  width: 100%;
+  border: 2px solid #3F0C1F;
+  position: relative;
+}
+
   #menu-title:hover,#specials-title:hover,#map-title:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
