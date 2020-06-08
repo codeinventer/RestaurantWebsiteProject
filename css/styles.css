@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-brand h1 { 
-  font-family: 'Lora', serif;
+  font-family:  serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -37,7 +37,7 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { 
+.navbar-brand p {
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
@@ -64,7 +64,7 @@ body {
 #phone {
   margin-top: 5px;
 }
-#phone a { 
+#phone a {
   text-align: right;
   padding-bottom: 0;
 }
@@ -85,40 +85,7 @@ body {
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
-}
-
-#menu-tile, #specials-tile, #map-tile {
-  height: 250px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
-  background-position: center;
-}
-
-#menu-tile span, #specials-tile span, #map-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.6em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
+  margin-top: 20px;
 }
 
 
@@ -145,87 +112,126 @@ body {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
   }
-  
+ 
 }
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
+  
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
   }
   
+
+}
+
+#menu-tile,#special-tile,#map-tile{
+  margin-bottom: 15px;
+  height: 250px;
+  width: 100%;
+  border: 2px solid #3F0C1F;
+  position: relative;
 }
 
 
+
 @media (max-width: 767px) {
-  
+  /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5vw; /
+    font-size: 5vw; 
   }
   .navbar-brand p { 
     font-size: .6em;
     margin-top: 12px;
   }
-  .navbar-brand p img {
+  .navbar-brand p img { 
     height: 20px;
   }
 
-  #collapsable-nav a {
+  #collapsable-nav a { 
     font-size: 1.2em;
   }
-  #collapsable-nav a span { 
+  #collapsable-nav a span {
     font-size: 1em;
     margin-right: 5px;
   }
 
-  #call-btn > a {
+  .call-btn > a {
     font-size: 1.5em;
     display: block;
-    margin: 0 20px;
+   
     padding: 10px;
     border: 2px solid #fff;
     background-color: #f6b319;
     color: #951c49;
   }
-  #xs-deliver {
+  #we-deliver {
     margin-top: 5px;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
   }
-  
+  /* End Header */
+
+  /* Home Page */
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
   }
-
-  #menu-tile, #specials-tile {
+  
+  #menu-tile,#special-tile{
     width: 360px;
     margin: 0 auto 15px;
   }
 
+
+
 }
 
+#menu-title:hover,#specials-title:hover,#map-title:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
 
+#menu-tile{
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
 
-@media (max-width: 479px) {
-  
-  .navbar-brand h1 { 
-    padding-top: 5px;
-    font-size: 6vw;
-  }
+#special-tile{
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
 
-  #menu-tile, #specials-tile {
+#menu-tile span,#special-tile span,#map-tile span{
+ 
+position: absolute;
+bottom: 0;
+right: 0;
+text-align: center;
+width: 100%;
+background-color: #000;
+color: #fff;
+opacity: .8;
+font-size: 1.4em;
+text-transform: uppercase;
+ }  
+
+ @media (max-width: 479px){
+  #menu-tile,#special-tile{
     width: 280px;
     margin: 0 auto 15px;
   }
+  .navbar-brand h1{
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  
   .col-xxs-12{
      position: relative;
   min-height: 1px;
@@ -235,13 +241,14 @@ body {
   width: 100%;
   }
 
-}
 
-.panel-footer{
+ }
+
+ .panel-footer{
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: black;
+  background-color: #222;
   border-top: 0;
  }
 
@@ -281,4 +288,3 @@ body {
     width: 50%;
   }
 }
-
