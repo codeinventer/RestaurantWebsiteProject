@@ -194,7 +194,7 @@ body {
 
 }
 
-#menu-title:hover,#specials-title:hover,#map-title:hover{
+#menu-tile:hover,#special-tile:hover,#map-tile:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
