@@ -7,7 +7,7 @@
     <title>David Chu's China Bistro</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-   
+    
   </head>
 <body>
   <header>
@@ -19,10 +19,10 @@
           </a>
 
           <div class="navbar-brand">
-            <a href="index.html"><h1>Real Test Restaurant</h1></a>
+            <a href="index.html"><h1>Real Test Resataurant</h1></a>
             <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>ISI Certified</span>
+              <img src="images/star-k-logo.png" alt="ISI certification">
+              <span>ISI certified</span>
             </p>
           </div>
 
@@ -36,6 +36,10 @@
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
             <li>
               <a href="menu-categories.html">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
@@ -58,19 +62,19 @@
     </nav>
   </header>
 
-<div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
+  <div class="call-btn">
+    <a class="btn visible-xs" href="tel:410-602-5008 ">
+    <span class="glyphicon glyphicon-earphone  visible-xs"></span>
+          410-602-5008
     </a>
   </div>
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
   <div id="main-content" class="container">
     <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" class="img-responsive visible-xs">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
     </div>
-
+     
      <div id="home-tiles" class="row">
        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
          <a href="menu-categories.html"><div  id="menu-tile"><span>Menu</span></div></a></div>
@@ -84,8 +88,9 @@
           <span>Map</span></div></a>
          </div>
      </div>
-    
-  </div>
+     </div>
+
+
   <footer class="panel-footer">
     <div class="container">
       <div class="row">
@@ -99,8 +104,7 @@
          <section id="address" class="col-sm-4">
           <span>Address:</span><br>
           7105 Registration Road<br>
-          Mandore
-           <p>* Delivery area within 3-4 miles, with minimum order of Rs 200 plus Rs 50 charge for all deliveries.</p>
+          Mandore <p>* Delivery area within 3-4 miles, with minimum order of Rs 200 plus Rs 50 charge for all deliveries.</p>
            <hr class="visible-xs">
         </section>
          <section id="testimonials" class="col-sm-4">
@@ -108,10 +112,12 @@
           <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again</p>
           </section>
       </div>
-      <div class="text-center">&copy; Copyright Real Test Restaurant 2020</div>
+      <div class="text-center">&copy; Real Test Reastaurant 2020</div>
     </div>
   </footer>
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+
+  
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
