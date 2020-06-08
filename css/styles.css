@@ -226,5 +226,59 @@ body {
     width: 280px;
     margin: 0 auto 15px;
   }
+  .col-xxs-12{
+     position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%;
+  }
+
+}
+
+.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+ }
+
+ .panel-footer .row{
+  
+  margin-bottom: 30px; 
+ }
+
+#hours,#address{
+  line-height: 2;
+}
+
+#hours span,#address span
+{
+  font-size: 1.3em;
+}
+
+#address p{
+  color: green;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+#testimonials{
+  font-style: italic;
+}
+#testimonials p:nth-child(2){
+  margin-top: 25px;
+}
+
+@media (max-width: 768px){
+  .panel-footer section{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  section hr{
+    width: 50%;
+  }
 }
 
