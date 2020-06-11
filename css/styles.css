@@ -288,3 +288,36 @@ text-transform: uppercase;
     width: 50%;
   }
 }
+
+
+
+#menu-categories-title + div{
+  margin-bottom: 50px;
+}
+
+
+.Category-tile{
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+.Category-tile span
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.Category-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
