@@ -11,7 +11,6 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   // $("#navbarToggle").click(function (event) {
   //   $(event.target).focus();
   });
-});
 
 (function (global) {
 
